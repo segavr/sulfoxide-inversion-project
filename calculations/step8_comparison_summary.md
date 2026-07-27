@@ -2,10 +2,6 @@
 
 
 
-\## Energetics
-
-
-
 | Level                | E(min) / Eh    | E(TS) / Eh     | Barrier / kcal/mol |
 
 |-----------------------|---------------:|---------------:|--------------------:|
@@ -16,9 +12,27 @@
 
 
 
-Difference: 1.00 kcal/mol (2.4% relative). Electronic energy only, no ZPE correction.
+Difference: 1.00 kcal/mol (2.4% relative). Electronic energy only.
 
 
+
+\## ZPE-corrected barriers
+
+
+
+| Level                | ZPE(min) / Eh | ZPE(TS) / Eh | ZPE-corrected barrier / kcal/mol |
+
+|-----------------------|---------------:|---------------:|--------------------:|
+
+| B3LYP/def2-SVP        | 0.13225436     | 0.13080626     | 40.58                |
+
+| B3LYP-D3/def2-TZVP    | 0.13254660     | 0.13107742     | 41.57                |
+
+
+
+ZPE lowers both barriers by \~0.9 kcal/mol, but the relative difference
+
+between levels of theory (2.4%) is essentially unchanged.
 
 \## TS structural parameters
 
