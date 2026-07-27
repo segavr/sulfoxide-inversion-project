@@ -63,7 +63,6 @@ python scripts/parse_orca_profile.py
 
 ## Limitations and Future Work
 
-- Reported barriers are electronic energies only (no ZPE correction)
 - Only the B3LYP functional family was tested; comparison with a range-separated hybrid (e.g. ωB97X-D3) would further test sensitivity to exchange treatment
 - IRC was performed only at the SVP level
 
