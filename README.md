@@ -24,12 +24,12 @@ Methylphenylsulfoxide, CH₃-S(=O)-C₆H₅ — chosen as a minimal system that 
 
 ## Results
 
-| Level | Barrier (kcal/mol, electronic) |
-|---|---:|
-| B3LYP/def2-SVP | 41.49 |
-| B3LYP-D3/def2-TZVP | 42.49 |
+| Level | Electronic barrier (kcal/mol) | ZPE-corrected barrier (kcal/mol) |
+|---|---:|---:|
+| B3LYP/def2-SVP | 41.49 | 40.58 |
+| B3LYP-D3/def2-TZVP | 42.49 | 41.57 |
 
-The barrier changes by only ~1 kcal/mol (2.4%) between the two levels of theory — smaller than might be expected given the aromatic and alkyl substituents near the inversion center. Both transition states are essentially planar at sulfur (sum of bond angles = 360.0°), consistent with the expected sp³ → sp² rehybridization mechanism.
+Zero-point energy correction lowers both barriers by ~0.9 kcal/mol, but the relative difference between the two levels of theory remains essentially unchanged (2.4%). The barrier is thus remarkably insensitive to dispersion correction and basis set enlargement, whether or not ZPE is included. Both transition states are essentially planar at sulfur (sum of bond angles = 360.0°), consistent with the expected sp³ → sp² rehybridization mechanism.
 
 See [`notebooks/01_analysis_and_results.ipynb`](notebooks/01_analysis_and_results.ipynb) for the full analysis, including structural comparison of the two transition states and detailed conclusions.
 
