@@ -1,4 +1,4 @@
-\# Sulfur Inversion Barrier in Methylphenylsulfoxide: A DFT Functional Comparison
+# Sulfur Inversion Barrier in Methylphenylsulfoxide: A DFT Functional Comparison
 
 
 
