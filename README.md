@@ -2,7 +2,7 @@
 
 
 
-\## Research Question
+## Research Question
 
 
 
@@ -14,7 +14,7 @@ correction play?
 
 
 
-\## Motivation
+## Motivation
 
 
 
@@ -44,25 +44,25 @@ standard laptop.
 
 
 
-\## Methods
+## Methods
 
 
 
-\- Geometry generation: RDKit (MMFF initial geometry)
+- Geometry generation: RDKit (MMFF initial geometry)
 
-\- Quantum chemistry: ORCA 6.1.1
+- Quantum chemistry: ORCA 6.1.1
 
-\- Two levels of theory compared:
+- Two levels of theory compared:
 
 &#x20; - \*\*B3LYP/def2-SVP\*\*
 
 &#x20; - \*\*B3LYP-D3(BJ)/def2-TZVP\*\* (dispersion-corrected, larger basis)
 
-\- Minima and transition states verified via vibrational frequency 
+- Minima and transition states verified via vibrational frequency 
 
 &#x20; analysis (0 imaginary frequencies for minima, exactly 1 for TS)
 
-\- Transition state confirmed via IRC (Intrinsic Reaction Coordinate) 
+- Transition state confirmed via IRC (Intrinsic Reaction Coordinate) 
 
 &#x20; calculation at the SVP level, verifying that the TS connects two 
 
@@ -70,7 +70,7 @@ standard laptop.
 
 
 
-\## Results
+## Results
 
 
 
@@ -104,7 +104,7 @@ detailed conclusions.
 
 
 
-\## Repository Structure
+## Repository Structure
 
 ├── data/ # Initial RDKit-generated geometry
 
@@ -138,7 +138,7 @@ detailed conclusions.
 
 └── README.md
 
-\## Reproducing the Results
+## Reproducing the Results
 
 
 
@@ -152,23 +152,23 @@ python scripts/parse\_orca\_profile.py
 
 
 
-\## Limitations and Future Work
+## Limitations and Future Work
 
 
 
-\- Reported barriers are electronic energies only (no ZPE correction)
+- Reported barriers are electronic energies only (no ZPE correction)
 
-\- Only the B3LYP functional family was tested; comparison with a 
+- Only the B3LYP functional family was tested; comparison with a 
 
 &#x20; range-separated hybrid (e.g. ωB97X-D3) would further test 
 
 &#x20; sensitivity to exchange treatment
 
-\- IRC was performed only at the SVP level
+- IRC was performed only at the SVP level
 
 
 
-\## References
+## References
 
 
 
